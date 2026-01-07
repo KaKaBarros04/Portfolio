@@ -60,3 +60,8 @@ if(contactForm){
     contactForm.reset();
   });
 }
+
+document.querySelector('.contact-form').addEventListener('submit', function() {
+  alert('Mensagem enviada! Obrigado 😊');
+});
+
