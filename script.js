@@ -48,20 +48,21 @@ projectCards.forEach(card => {
   });
 });
 
-// ================================
-// FORMULÁRIO DE CONTATO (fake submit)
-// ================================
-const contactForm = document.querySelector('.contact-form');
+  // Inicializa EmailJS
+  (function() {
+    emailjs.init("0O7QE8yESGdcdanam"); // substitua pelo seu User ID
+  })();
 
-if(contactForm){
-  contactForm.addEventListener('submit', e => {
-    e.preventDefault(); // impede envio real
-    alert('Thank you for reaching out! I will contact you soon.');
-    contactForm.reset();
+  const form = document.getElementById('contact-form');
+
+  form.addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    emailjs.sendForm('service_8t8t9kh', 'template_xyaqgi6', this)
+      .then(() => {
+        alert('Mensagem enviada com sucesso! 😊');
+        form.reset();
+      }, (err) => {
+        alert('Erro ao enviar: ' + JSON.stringify(err));
+      });
   });
-}
-
-document.querySelector('.contact-form').addEventListener('submit', function() {
-  alert('Mensagem enviada! Obrigado 😊');
-});
-
