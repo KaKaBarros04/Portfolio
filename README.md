@@ -1,21 +1,24 @@
-# 💼 Portfólio Pessoal – KaKa Barros
+# 💼 Personal Portfolio – KaKa Barros
 
-Bem-vindo(a) ao meu portfólio! 🚀  
-Este projeto foi desenvolvido para apresentar meus **projetos**, **habilidades** e um pouco sobre mim como desenvolvedor(a).
+Welcome to my portfolio! 🚀
+This project was developed to showcase my **projects**, **skills**, and a little about me as a developer.
 
-## 🧑‍💻 Sobre mim
+## 🧑‍💻 About Me
 
-Olá! Eu sou **KaKa Barros**, desenvolvedor(a) apaixonado(a) por tecnologia, programação e criação de soluções criativas.  
-Estou sempre buscando aprender coisas novas e evoluir minhas habilidades na área de desenvolvimento.
+Hi! I'm **KaKa Barros**, a developer passionate about technology, programming, and creating creative solutions.
 
-## 🛠️ Tecnologias Utilizadas
+I'm always looking to learn new things and improve my skills in the development field.
 
-- HTML5  
-- CSS3  
-- JavaScript  
-- Git & GitHub  
+## 🛠️ Technologies Used
 
-*(adicione ou remova conforme seu projeto)*
+- HTML5
 
-## 📂 Estrutura do Projeto
+- CSS3
 
+- JavaScript
+
+- Git & GitHub
+
+*(add or remove as needed for your project)*
+
+## 📂 Project Structure
